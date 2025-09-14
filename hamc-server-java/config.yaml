@@ -1,19 +1,19 @@
-name: HAMC Server Java
+name: HAMC Server Java psimonkey clone
 description: Host a Java Minecraft server on Home Assistant
 version: 1.1.1
-slug: hamc-java
+slug: hamc-java-psimonkey
 init: false
 arch:
   - amd64
   - aarch64
   - armv7
 ports:
-  25565/tcp: "25565"
+  25566/tcp: "25566"
 ports_description:
-  25565/tcp: Minecraft Server Port
+  25566/tcp: Minecraft Server Port
 options:
   VERSION: LATEST
-  SERVER_NAME: "HAMC Java Server"
+  SERVER_NAME: "HAMC Java Server psimonkey clone"
   MOTD: "Greetings from Home Assistant"
   LEVEL: "World"
   GAMEMODE: survival
